@@ -1,0 +1,2 @@
+all:
+	g++ Samplers.h StringUtils.h VocabEncoder.h MultinomialParams.h LearningInfo.h FstUtils.h FstUtils.cc IbmModel1.h IbmModel1.cc train-model1.cc -lfst -ldl -O3 -o train-model1
