@@ -1,0 +1,8 @@
+SRC	S++RC+
+SRC	+SRC+
+SRC	S+R++C+
+SRC	+S+RC+
+SRC	SR++C+
+SRC	S++R+C+
+SRC	+SR+C+
+SRC	+S+R+C+
