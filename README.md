@@ -50,7 +50,8 @@ cat $ROOT/swahili/data/clean.train.eng >> $ROOT/swahili/data/lattice.a2.mh.train
 ==========================================================
 cd moses
 
-Change train.sh, binarize.sh dev.sh and test.sh such that it points to your moses binaries.
+Change $ROOT and $MOSESROOT in train.sh, binarize.sh dev.sh and test.sh.
+Change $ROOT in moses.standard.ini.
 
 ./train.sh lattice_a2_mh lattice.a2.mh.train 1 9 ; ./binarize.sh lattice_a2_mh ; ./dev.sh lattice_a2_mh a2.base ; ./test.sh lattice_a2_mh a2.base;
 
