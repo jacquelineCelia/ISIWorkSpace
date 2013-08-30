@@ -1,0 +1,5 @@
+0 2 ku ku 2.53937
+2 1 likuwa likuwa 8.23523
+0 4 kuli kuli 5.40876
+4 1 kuwa kuwa 5.78423
+1

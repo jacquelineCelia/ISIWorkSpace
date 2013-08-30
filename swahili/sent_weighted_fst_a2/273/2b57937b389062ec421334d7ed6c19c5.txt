@@ -1,0 +1,5 @@
+0 2 kwe kwe 9.43918
+2 1 nye nye 5.43984
+0 4 k k 6.91283
+4 1 wenye wenye 8.34059
+1

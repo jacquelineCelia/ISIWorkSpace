@@ -1,0 +1,5 @@
+0 2 waka waka 8.23523
+2 1 ti ti 4.1589
+0 4 wa wa 3.32302
+4 1 kati kati 9.15151
+1

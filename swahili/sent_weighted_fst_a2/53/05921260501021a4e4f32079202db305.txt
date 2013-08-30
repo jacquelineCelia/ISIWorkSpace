@@ -1,0 +1,4 @@
+0 2 u u 3.13279
+2 3 ki ki 3.54711
+3 1 waambia waambia 8.13992
+1
