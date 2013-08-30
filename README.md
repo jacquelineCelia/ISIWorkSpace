@@ -1,8 +1,6 @@
 Experiment material of the summer.
 
-##########################################################
-1. Training alignment model
-##########################################################
+1). Training alignment model
 
 There are three ways to train IBM model 1 and the HMM model with lattices. 
 
@@ -40,9 +38,8 @@ e.g., ./train-mh 0 lattice.a2.train.norm.bitxt result/lattice_a2/ibm
 ./train-mh 1[hmm training] bitext basename tparams
 e.g., ./train-mh 1 lattice.a2.train.norm.bitxt result/lattice_a2/hmm  result/lattice_a2/ibm.1000.t 
 
-##################################################################
 2. Generate parallel morpheme-to-sentence corpus
-##################################################################
+
 Take the MH sampling result as an example.
 
 cd $ROOT/scripts
@@ -51,9 +48,7 @@ cat $ROOT/data/clean/train.swa >> $ROOT/data/lattice.a2.mh.train.swa
 cp $ROOT/data/clean.train.eng $ROOT/data/lattice.a2.mh.train.eng
 cat $ROOT/data/clean.train.eng >> $ROOT/data/lattice.a2.mh.train.eng
 
-##################################################################
 3. Train and test the translation model 
-##################################################################
 cd moses
 
 Change train.sh, binarize.sh dev.sh and test.sh such that it points to your moses binaries.
@@ -65,9 +60,7 @@ tail lattice_a2_mh/translation.out
 
 and you will get the bleu score.
 
-##################################################################
 4. Baselines to compare against 
-##################################################################
 
 Word-based: 22.20
 UnMorph: 23.37
