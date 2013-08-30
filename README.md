@@ -6,9 +6,9 @@ Experiment material of the summer.
 
 There are three ways to train IBM model 1 and the HMM model with lattices. 
 
-1) Basic - Learn P(f,G|e) with each path in G being equal.
-2) Weighted - Learn P(f,G|e), but paths in G are weighted unequally.
-3) MH - Learn P(e,f|G) using Metropolis Hastings   
+Basic - Learn P(f,G|e) with each path in G being equal.
+Weighted - Learn P(f,G|e), but paths in G are weighted unequally.
+MH - Learn P(e,f|G) using Metropolis Hastings   
 
 ===========================
 Basic
@@ -74,3 +74,5 @@ UnMorph: 23.37
 Lattice-basic: 22.74 (a2)
 Lattice-weighted: 23.47
 Lattice-mh: to be updated
+
+
